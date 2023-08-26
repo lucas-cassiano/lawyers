@@ -240,17 +240,15 @@
         <div class="row">
           <div class="col-md-6 form-wrap">
             <form id="submit-form">
-              <div>
-                <div class="form-group">
-                  <label id="name-label" for="name">Nome</label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="form-control"
-                    required
-                  />
-                </div>
+              <div class="form-group">
+                <label id="name-label" for="name">Nome</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-control"
+                  required
+                />
               </div>
 
               <div class="form-group">
@@ -274,11 +272,22 @@
                 />
               </div>
               <div class="form-group">
+                <label id="name-label" for="name">Assunto</label>
+                <input
+                  type="text"
+                  name="assunto"
+                  id="assunto"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
                 <label>Sua Mensagem</label>
                 <textarea
                   id="comments"
                   class="form-control"
                   name="comment"
+                  rows="8"
                 ></textarea>
               </div>
 
@@ -292,9 +301,22 @@
               </button>
             </form>
           </div>
-          <div class="col-md-6 maps">
-            <h1>mapa aqui</h1>
-            <div id="map"></div>
+          <div class="col-md-6">
+            <div
+              id="map"
+              style="
+                width: 100%;
+                height: 400px;
+                border-radius: 10px;
+                padding: 5% 5%;
+              "
+            ></div>
+
+            <div class="text-map">
+              <p>Av. Cel. Pedro Paranhos, nº 388 Centro - Palmares/PE</p>
+              <p>E-mail: eli_7315@hotmail.com</p>
+              <p>Telefone: (81) 3661-0017</p>
+            </div>
           </div>
         </div>
       </div>
@@ -327,7 +349,7 @@
     <script>
       function initMap() {
         var options = {
-          center: { lat: -23.55052, lng: -46.633308 }, // Coordenadas do centro do mapa
+          center: { lat: -8.674086475237266, lng: -35.585081861695336 }, // Coordenadas do centro do mapa
           zoom: 12 // Nível de zoom
         }
 
