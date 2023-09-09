@@ -7,13 +7,13 @@ body {
 	font-size: 1.2rem;
 }
 
-/* For all section's title */
+
 .section-title {
 	font-size: 3rem;
   color: #cea63ffe;
 }
 
-/* Navigation */
+
 .logo {
 	font-weight: 900;
 	font-size: 1.5rem;
@@ -22,22 +22,23 @@ body {
 	margin: 0 20px;
 }
 
-/* Main Section */
+
 #main {
 	background: #cea63ffe;
 	background-size: cover;
-	height: 100vh;
+	height: auto;
+	
 }
 .header-main {
 	margin-top: 20px;
 }
 .header-info {
 	font-weight: 500;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	color: #fff;
- 
-  
-  margin-top: 80px;
+}
+.section-hero{
+	padding: 5%;
 }
 .btn-outline-light {
 	margin-left: 20px;
@@ -47,7 +48,6 @@ body {
   border-radius: 30px;
 }
 
-/* Overview */
 .info-width {
 	width: 60%;
 	font-size: 1.3rem;
@@ -67,7 +67,7 @@ body {
 }
 
 
-/* Pricing */
+
 #lawyers {
 	margin-top: 100px;
 	padding: 100px 0;
@@ -94,11 +94,10 @@ body {
 }
 
 #about {
-  margin-top: 100px;
 	padding: 100px 0;
 }
 
-/* Call To Action */
+
 #cta {
 	background-color: #cea63ffe;
 	padding: 7% 15%;
@@ -120,12 +119,17 @@ body {
 /* Footer */
 #footer {
 	height: 200px;
+	display: flex;
+	justify-content: center;
+	padding: 5% 3%;
+	
 }
 .footer-icon {
 	font-size: 2rem;
 	color: #cea63ffe;
-	padding: 5% 3%;
+	 margin-right: 30px; 
 }
+
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {

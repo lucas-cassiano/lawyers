@@ -12,8 +12,6 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:400,500,900"
       rel="stylesheet"
     />
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUBFxqrqL_b53yfGomeaXLQ9drv_ExpjM"></script>
     <!-- Adding Font Awesome -->
     <link
       rel="stylesheet"
@@ -77,37 +75,33 @@
                 <a href="#cta" class="nav-link">Contato</a>
               </li>
               <li class="nav-item">
-                <a href="#pricing" class="nav-link">Login</a>
+                <a href="#colocarlinkprateladelogin" class="nav-link">Login</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
 
-      <div class="container">
-        <div class="row header-main">
-          <div class="col-md-6">
-            <p class="header-info">
-              Com uma equipe experiente de advogados especializados, nossa
-              abordagem colaborativa nos permite criar soluções personalizadas
-              para cada caso, sempre mantendo os mais altos padrões éticos e
-              profissionais.
-            </p>
-
-            <a href="#overview">
-              <button class="btn btn-outline-light btn-lg btn-space">
+      <div class="section-hero">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 order-2 order-md-1">
+              <h1 class="header-info">
+                Com uma equipe experiente de advogados especializados, nossa
+                abordagem colaborativa nos permite criar soluções personalizadas
+                para cada caso, sempre mantendo os mais altos padrões éticos e
+                profissionais.
+              </h1>
+              <a
+                href="#overview"
+                class="btn btn-outline-light btn-lg btn-space"
+              >
                 Conheça nossos serviços
-              </button>
-            </a>
-          </div>
-
-          <div class="col-md-6 text-center">
-            <img
-              src="./assets/bannerJustica.png"
-              class="ml-5 logo"
-              width="300"
-              alt="banner"
-            />
+              </a>
+            </div>
+            <div class="col-md-6 order-1 order-md-2 text-center">
+              <img class="img-fluid" src="./assets/themis.png" alt="banner" />
+            </div>
           </div>
         </div>
       </div>
@@ -221,7 +215,7 @@
           <div class="col-md-3">
             <div class="card">
               <div class="card-body text-center">
-                <h1 class="card-title lawyers-text">Dr. Alberto</h1>
+                <h1 class="card-title lawyers-text">Dr. Pedro</h1>
                 <p class="card-text">OAB</p>
                 <p class="card-text">Formação</p>
                 <p class="card-text">Especialidade</p>
@@ -295,7 +289,7 @@
                 type="submit"
                 id="submit"
                 class="btn btn-outline-light btn-lg btn-space"
-                style="float: right"
+                style="float: right; margin-bottom: 10%"
               >
                 Enviar
               </button>
@@ -323,11 +317,33 @@
     </section>
 
     <!-- Footer -->
-    <section id="footer" class="d-flex justify-content-center">
-      <i class="fab fa-facebook-f footer-icon"></i>
-      <i class="fab fa-instagram footer-icon"></i>
-      <i class="fab fa-twitter footer-icon"></i>
-      <i class="fab fa-whatsapp footer-icon"></i>
+    <section id="footer">
+      <a
+        href="https://www.linkedin.com/in/eli-alves-bezerra-67743149"
+        title="Ir para LinkedIn"
+      >
+        <i class="fab fa-linkedin footer-icon"></i>
+      </a>
+
+      <a href="mailto:eli_7315@hotmail.com" title="Enviar e-mail">
+        <i class="fas fa-envelope footer-icon"></i>
+      </a>
+
+      <!-- substituir numero do telefone -->
+      <a
+        href="https://web.whatsapp.com/send?phone=5582996553966"
+        title="Enviar WhatsApp"
+      >
+        <i class="fab fa-whatsapp footer-icon"></i>
+      </a>
+
+      <!-- substituir nome do usuário -->
+      <a
+        href="https://www.instagram.com/_giselecorreia/"
+        title="Ir para Instagram"
+      >
+        <i class="fab fa-instagram footer-icon"></i>
+      </a>
     </section>
 
     <!-- Bootstrap's Javascript -->
